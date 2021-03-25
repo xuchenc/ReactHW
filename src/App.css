@@ -1,10 +1,86 @@
-.App {
-  text-align: center;
+.background {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(200,200,200);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.upperBox {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.positionBox {
+  position: relative;
+}
+
+.container {
+  background: #ffffff;
+  width: 800px;
+  height: 450px;
+  position: relative;
+}
+
+.arrowImg {
+  width: 100px;
+  height: 45px;
+}
+
+.textBox {
+  color: #ffffff;
+  background: black;
+  opacity: 0.5;
+  width: 800px;
+  /* height: 150px; */
+  /* background: cyan; */
+  display: flex;
+  flex-direction: column;
+  z-index: 9;
+  position: absolute;
+  bottom:3px; 
+  left:0;
+}
+
+h1, p {
+  padding-left: 20px;
+}
+
+.bottomBox {
+  display: flex;
+  flex-direction: row;
+}
+
+.thumbnailsBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+}
+
+.triangel {
+  width: 10px;
+  height: 10px;
+}
+
+.focus {
+  width: 60px;
+  height: 60px;
+  margin: 0 10px;
+  border: 3px solid red;
+}
+
+.thumbnails {
+  width: 60px;
+  height: 60px;
+  margin: 0 10px;
+  border: 3px solid #ffffff;
 }
 
 @media (prefers-reduced-motion: no-preference) {
